@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+<form class="" action="/Compose" method="post" style="padding-left: 100px">
+  <h1 style="font-family: sans-serif">COMPOSE</h1>
+  <p style="font-family: sans-serif">Title</p>
+  <input type="text" name="PostTitle" />
+  <p style="font-family: sans-serif">Post</p>
+  <textarea name="PostBody" rows="5" cols="130"></textarea>
+  <div style="padding-top: 10px">
+    <button
+      type="submit"
+      name="publish"
+      style="background-color: cornflowerblue; color: antiquewhite"
+    >
+      PUBLISH
+    </button>
+  </div>
+</form>
+<%- include("partials/footer"); -%>
